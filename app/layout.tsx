@@ -6,6 +6,7 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getServerSideConfig } from "./config/server";
+import { Analytics } from '@vercel/analytics/react';
 
 const serverConfig = getServerSideConfig();
 
@@ -46,6 +47,7 @@ export default function RootLayout({
             <SpeedInsights />
           </>
         )}
+        <Analytics />
       </body>
     </html>
   );
