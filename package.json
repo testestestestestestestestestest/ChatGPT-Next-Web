@@ -40,7 +40,8 @@
     "sass": "^1.59.2",
     "spark-md5": "^3.0.2",
     "use-debounce": "^9.0.4",
-    "zustand": "^4.3.8"
+    "zustand": "^4.3.8",
+    "@vercel/analytics":"*"
   },
   "devDependencies": {
     "@tauri-apps/cli": "1.5.7",
@@ -58,7 +59,8 @@
     "lint-staged": "^13.2.2",
     "prettier": "^3.0.2",
     "typescript": "5.2.2",
-    "webpack": "^5.88.1"
+    "webpack": "^5.88.1",
+    "@vercel/analytics":"*"
   },
   "resolutions": {
     "lint-staged/yaml": "^2.2.2"
